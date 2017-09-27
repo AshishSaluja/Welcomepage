@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="welcomepage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <p class="span_head">Welcome Call Status</p>
+        <div class="cont">
+                        <div class="table_div">
+                                <ul class="customerdata">
+                                    <li class="book_id"><label>Booking ID's  :</label>
+                                    <span>
+                                          <select name="mydropdown" class="select_id">
+                                                <option value="1">25629675</option>
+                                                <option value="2">25629670</option>
+                                                <option value="3">25629678</option>
+                                                <option value="4">25629660</option>
+                                                <option value="5">25629660</option>
+                                                <option value="6">25629660</option>
+                                                <option value="7">25629660</option>
+                                          </select>
+                                    </span>
+                                    </li>
+                                </ul>
+                                <ul class="customerdata">
+                                    <li class="book_id">
+                                        <label>Booking Date :</label>
+                                        <span class="date_time">26/07/2017 11:15 PM</span>
+                                    </li>
+                                </ul>
+                                <ul class="customerdata">
+                                    <li class="book_id">
+                                        <label>Plan Name :</label>
+                                        <span class="date_time">My Term Plan</span>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="table_div">
+                                <ul class="customerdata">
+                                    <li class="book_id">
+                                        <label>Total Count :</label>
+                                        <span class="date_time">21</span>
+                                    </li>
+                                </ul>
+                                <ul class="customerdata">
+                                    <li class="book_id">
+                                        <label>Supplier Name :</label>
+                                        <span class="date_time">HDFC BANK</span>
+                                    </li>
+                                </ul>
+                        </div>
+        </div>
+        <div class="multiple_checkbox">
+                <label class="docs">List of Docs Required</label>
+                <ul class="check_box">
+                    <li><label><input type="checkbox" name="boxes" value="one"></label><span>Medicals</span></li>
+                    <li><label><input type="checkbox" name="boxes" value="two"></label><span>Relationship Manager</span></li>
+                    <li><label><input type="checkbox" name="boxes" value="three"></label><span>Adhaar Card</span></li>
+                    <li><label><input type="checkbox" name="boxes" value="four"></label><span>TAT to Issuance</span></li>
+                </ul>
+        </div>
+        <div class="cont2">
+            <div class="table_div">
+                <ul class="customerdata">
+                    <li class="book_id"><label>Status :</label>
+                       <span>
+                          <select name="mydropdown" class="select_status">
+                              <option value="1">New</option>
+                              <option value="2">Complete</option>
+                              <option value="3">Pending - Ringing/No Response</option>
+                              <option value="4">Pending - Callback</option>
+                              <option value="5">Failed - Not taken thru PB</option>
+                              <option value="6">Failed - Did not purchase any plan</option>
+                              <option value="7">Failed - Refused to avail our service</option>
+                          </select>
+                       </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="welcome_footer">
+            <button type="submit" class="save">Save <i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+            <button type="reset" class="cancel">Cancel <i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+    </div>
+</body>
+</html>
